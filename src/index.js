@@ -4,6 +4,7 @@ import * as serviceWorker from "./serviceWorker";
 
 import CounterContext from "./contexts/counter";
 import Counter from "./components/counter";
+import Aiueo from "./components/aiueo";
 
 class App extends React.Component {
   constructor(props) {
@@ -30,6 +31,7 @@ class App extends React.Component {
     return (
       <CounterContext.Provider value={this.state}>
         <Counter />
+        <Aiueo />
       </CounterContext.Provider>
     );
   }

@@ -1,5 +1,6 @@
 import React from "react";
 import CounterContext from "../contexts/counter";
+import Text from "../components/text";
 
 const Counter = () => (
   <CounterContext.Consumer>
